@@ -30,7 +30,7 @@
 /(xanax|ritalin|ambien|celebrex|tramadol|valium|subutex|cialis|percocet|clonazepam).{0,20}mg/i
 /testosterone cypionate/i
 /testosterone enanthate/i
-/whatsapp.{0,5}+1/i
+/whatsapp.{0,5}\+1/i
 /wirkungcvoller weg/i
 /Setzt du dich oft vor dem Computer/i
 /100% undetected/i
