@@ -1,8 +1,8 @@
 /ozempic online/i
 /buy ozempic/i
 /pentobarbital/i
-/wickr id/i
-/threema id/i
+/wickr.{0,2}id/i
+/threema.{0,2}id/i
 /ketamine/i
 /clean and high purity/i
 /rohypnol/i
@@ -14,11 +14,20 @@
 /buy adderall online/i
 /pharmacy grade/i
 /mg pill/i
-/buy .{0,10} \d+mg/i
-/order .{0,10} \d+mg/i
+/buy .{0,10} \d+.{0,20}mg/i
+/order .{0,10} \d+.{0,20}mg/i
 /methadone/i
 /w1ckr/i
 /mehr selbstvertrauen durch/i
 /fett ade/i
 /morgens ins klo/i
 /pinkeln sie ihr fett weg/i
+/r[\s\-_:]*e[\s\-_:]*z[\s\-_:]*e[\s\-_:]*p[\s\-_:]*t[\s\-_:]*f[\s\-_:]*r[\s\-_:]*e[\s\-_:]*i/i
+/discretely purchase/i
+/sicher online kaufen/i
+/nembutal/i
+/best.{0,20}\d.{0,20}mg/i
+/(xanax|ritalin|ambien|celebrex|tramadol|valium|subutex|cialis|percocet|clonazepam).{0,20}mg/i
+/testosterone cypionate/i
+/testosterone enanthate/i
+/whatsapp.{0,5}+1/i
