@@ -1,0 +1,45 @@
+name: Test Rspamd Maps
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test-maps:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Docker
+        uses: docker/setup-buildx-action@v3
+
+      - name: Generate multimap configuration and test
+        run: |
+          # Create multimap configuration
+          echo "Creating multimap configuration..."
+          mkdir -p /tmp/rspamd
+          cat > /tmp/rspamd/multimap.conf << 'EOF'
+          # Auto-generated multimap configuration
+          type = "multi map";
+          rules {
+          EOF
+          
+          # Add each map file to the configuration
+          for map in maps.d/*.map; do
+            name=$(basename "$map" .map)
+            echo "  $name {" >> /tmp/rspamd/multimap.conf
+            echo "    type = \"words\";" >> /tmp/rspamd/multimap.conf
+            echo "    map = \"file://${map}\";" >> /tmp/rspamd/multimap.conf
+            echo "    score = 5.0;" >> /tmp/rspamd/multimap.conf
+            echo "  }" >> /tmp/rspamd/multimap.conf
+          done
+          
+          echo "}" >> /tmp/rspamd/multimap.conf
+          
+          # Test the configuration
+          docker run --rm \
+            -v "$PWD/maps.d:/maps.d:ro" \
+            -v "/tmp/rspamd:/tmp/rspamd:ro" \
+            rspamd/rspamd:latest \
+            rspamadm configtest -c /tmp/rspamd/multimap.conf
