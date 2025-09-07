@@ -1,3 +1,5 @@
 /Sicherheitsupdate: Bitte/i
 /Password Notice on \d\d .{5,10}, 20\d\d/i
 /Nutzen Sie Ihre Programme wie Word, Excel und Outlook ohne laufende Kosten/i
+/Package Requires Address Confirmation/i
+/Letzte Chance zur Aktualisierung/i
