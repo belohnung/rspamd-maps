@@ -1,1 +1,2 @@
 /Mailing list subscription confirmation notice for mailing list/i
+/Elegant Timepieces Starting at .{0,3}\d+.{0,3}/i
