@@ -30,3 +30,15 @@
 /^Aktualisieren Sie Ihre Kontoinformationen$/i
 /Wir haben Ihr Konto gesperrt!/i
 /Unusual Sign-in! [Action Required]/i
+/緊急/i
+/今すぐ/i
+/至急/i
+/重要/i
+/時間以内/i
+/未完/i
+/未加/i
+/不審な/i
+/警告/i
+/確認依頼/i
+/確認実施/i
+/変更依頼/i
