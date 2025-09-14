@@ -46,3 +46,4 @@
 /[username]/i
 /Your Account has been blocked! Your Photos and Videos will be removed/i
 /take action!!/i
+/PayPal.+invited you as a developer/i
