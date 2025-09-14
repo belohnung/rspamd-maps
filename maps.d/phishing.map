@@ -43,3 +43,6 @@
 /確認実施/i
 /変更依頼/i
 /WARNING: Your Email: .+ will be blocked today/i
+/[username]/i
+/Your Account has been blocked! Your Photos and Videos will be removed/i
+/take action!!/i
