@@ -50,3 +50,4 @@
 /Payment confirmation\/QTN#/i
 /Important Message Delivery Error/i
 /account request urgent restart update!!/i
+/^Password Notice on .+@.+$/i
