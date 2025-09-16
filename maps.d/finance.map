@@ -6,3 +6,4 @@
 /verdienen mit ChatGPT\?/i
 /^\w+ Fwd: Dividendenzahlung$/i 
 /KI macht reich\?/i
+/In nur \d+ Minuten hat der Bot \d Geschäfte abgeschlossen!/i
