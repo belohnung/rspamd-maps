@@ -51,3 +51,4 @@
 /Important Message Delivery Error/i
 /account request urgent restart update!!/i
 /^Password Notice on .+@.+$/i
+/Compliance Alert: Provide Details for Pending Transaction/i
