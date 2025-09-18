@@ -52,3 +52,4 @@
 /account request urgent restart update!!/i
 /^Password Notice on .+@.+$/i
 /Compliance Alert: Provide Details for Pending Transaction/i
+/You have \[\d\] pending incoming emails/i
