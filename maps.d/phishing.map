@@ -53,6 +53,6 @@
 /^Password Notice on .+@.+$/i
 /Compliance Alert: Provide Details for Pending Transaction/i
 /You have \[\d\] pending incoming emails/i
-/Sie haben [\d] ungelesene Nachricht/i
+/Sie haben \[\d\] ungelesene Nachricht/i
 /Case ID: #\d+890/i
 /ID: #\d+898/i
