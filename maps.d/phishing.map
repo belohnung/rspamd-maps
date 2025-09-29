@@ -56,3 +56,4 @@
 /Sie haben \[\d\] ungelesene Nachricht/i
 /Case ID: #\d+890/i
 /ID: #\d+898/i
+/{\d} ✉ Failed emails pending/i
