@@ -26,7 +26,7 @@
 /Surveys for Money/i
 /^Aktualisieren Sie Ihre Kontoinformationen$/i
 /Wir haben Ihr Konto gesperrt!/i
-/Unusual Sign-in! [Action Required]/i
+/Unusual Sign-in! \[Action Required\]/i
 /緊急/i
 /今すぐ/i
 /至急/i
@@ -58,7 +58,7 @@
 /ID: #\d+898/i
 /\{\d\} ✉ Failed emails pending/i
 /Ihre Haushaltsabgabe: Aktualisierung der Zahlungsdaten notwendig/i
-/Oops! Domain läuft ab./i
+/Oops! Domain läuft ab/i
 /Ungewöhnliche Aktivität erkannt – Transaktion an Amazon/i
 /Zweite Erinnerung: Wenn Sie das Update nicht durchführen/i
 /.+MAILBOX PROTECTION/i
